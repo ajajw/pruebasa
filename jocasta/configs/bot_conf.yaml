@@ -6,12 +6,12 @@ BOT_TOKEN: '5752243326:AAHvTPls-tnNkyrOTpOlguEX6PqZYnPHfXM:' #@botfather
 
 STRING_SESSION: '1AZWarzQBuwisPMX5sCIedP37-Jkj_Ih-3bVcgLx4QatWj_ct3qML3Ul1NjsbYwkrWvdQaZuvHvGc3KpwWGXkBv0zu9MhrP4KVfw0v8vR0K-_9q1kzB6ktRVDUa-0eihWnDMZ6l6vi2JgeR0pBWDt4gyc2m_B8n3U3eJUzb-lGdAi_s0meoBoVWBB6153UnqK5EAO50B4CQRtUWrhtbXC-k9uVKHga8RmwLznzmS4Ju7G28E182mVxMZ8aUGkcjD1flmwx3eOpVgxCOj-W_CPqS2B293nBjJwUcnYUTE2yNLcH4UaSsruFkTs_nS761NnSDk16SwwiGS9P69E4VyDiGITEMWYwLM=' #python3 session_gen.py
 
-MONGO_URL: ''
+MONGO_URL: 'mongodb+srv://root:1leHK3T7MoPQDEUm@cluster0.k2cncza.mongodb.net/?retryWrites=true&w=majority'
 MONGO_DB: 'bot' # leave this as it is or change from services/mongo.py this change here. 
 
-REDIS_URI: '127.0.0.1'
-REDIS_PORT: 6379
-REDIS_PASS: ''
+REDIS_URI: 'redis-19489.c9.us-east-1-2.ec2.cloud.redislabs.com'
+REDIS_PORT: 19489
+REDIS_PASS: 'Zb2RawbHx5eIadRmFvJUL4xSQAmPVv2P'
 
 SUPPORT_CHAT: -833549479 # send live ccs to here must add bot and make bot admin.
 LOG_CHAT: -833549479  # send live ccs to here must add bot and make bot admin.
